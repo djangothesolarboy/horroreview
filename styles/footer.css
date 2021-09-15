@@ -2,8 +2,17 @@
 footer {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .copyright {
+    display: flex;
+    justify-content: center;
     text-transform: uppercase;
+}
+
+.repo {
+    height: 32px;
+    display: flex;
+    justify-content: center;
 }
