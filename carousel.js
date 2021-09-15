@@ -1,16 +1,16 @@
 let reviewObject = [
     {
         name: 'malignant',
-        src: './reviews/imgs/malignant-poster.jpg',
+        src: '../reviews/imgs/malignant-poster.jpg',
         alt: 'malignant poster',
         class: 'poster',
-        link: './reviews/malignant.html'
+        link: '../reviews/malignant.html'
     }, {
         name: 'escape room 2',
-        src: './reviews/imgs/escape_room_2-poster.jpg',
+        src: '../reviews/imgs/escape_room_2-poster.jpg',
         alt: 'escape room 2 poster',
         class: 'poster',
-        link: './reviews/escape-room-2.html'
+        link: '../reviews/escape-room-2.html'
     }
 ]
 
