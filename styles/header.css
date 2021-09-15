@@ -1,0 +1,14 @@
+/* HEADER STYLING */
+header {
+    height: 4vh;
+    display: flex;
+    background-color:#545454;
+    justify-content: space-around;
+    border-bottom: 2px solid #7f7f7f98;
+    /* position: fixed; */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}

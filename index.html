@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horroreview</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <a class='header link' href="/">home</a>
+            <a class='header link' href="/reviews.html">reviews</a>
+            <a class='header link' href="/about.html">about</a>
+            <a class='header link' href="/contact.html">contact</a>
+        </header>
+        <main>
+            <p class='main text'>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dicta praesentium totam veniam nulla nam, adipisci magni nobis fuga, aliquam iusto suscipit voluptates illum quas ad voluptate! Libero, explicabo dolor.
+            </p>
+            <div class="carousel-container">
+                <aside>
+                    <button onclick='left()' class='button-left'>🡸</button>
+                </aside>
+                <div class="carousel-content">
+                    <!-- img -->
+                </div>
+                <aside>
+                    <button onclick='right()' class='button-right'>🡺</button>
+                </aside>
+            </div>
+        </main>
+        <footer>
+            <p class='footer copyright'>©Damien Darko</p>
+        </footer>
+    </div>
+    <script src="carousel.js"></script>
+</body>
+</html>
