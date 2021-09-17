@@ -15,11 +15,15 @@ let reviewObject = [
 ]
 
 let currentReview = document.querySelector('.carousel-content');
+const link = document.createElement('a');
+link.href = reviewObject[0].link;
+currentReview.appendChild(link);
+
 const img = document.createElement('img');
 img.src = reviewObject[0].src;
 img.alt = reviewObject[0].alt;
 img.className = reviewObject[0].class;
-currentReview.appendChild(img);
+link.appendChild(img);
 
 let currentPoster = 0;
 

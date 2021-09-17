@@ -17,9 +17,18 @@ button {
     background-color: transparent;
 }
 
+.button-left:hover,
+.button-right:hover {
+    color: white;
+}
+
 .poster {
     width: 500px;
     height: 700px;
+}
+
+.poster:hover {
+    
 }
 
 .carousel-container {
@@ -28,6 +37,7 @@ button {
     align-items: center;
     justify-content: center;
 }
+
 
 /* SMART PHONE */
 @media only screen and (max-width: 600px) {

@@ -2,7 +2,7 @@
 footer {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .copyright {
@@ -15,4 +15,9 @@ footer {
     height: 32px;
     display: flex;
     justify-content: center;
+}
+
+.github:hover {
+    height: 42px;
+    transition-delay: .01s;
 }
