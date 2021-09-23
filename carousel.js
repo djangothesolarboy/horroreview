@@ -45,5 +45,14 @@ const left = () => {
     img.className = reviewObject[currentPoster].class;
 }
 
+setInterval(function() {
+    currentPoster++;
+    if (currentPoster >= reviewObject.length) currentPoster = 0;
+    const img = document.querySelector('.poster');
+    img.src = reviewObject[currentPoster].src;
+    img.alt = reviewObject[currentPoster].alt;
+    img.className = reviewObject[currentPoster].class;
+}, 5200);
+
 document.querySelector('.button-right').onclick = right;
 document.querySelector('.button-left').onclick = left;
