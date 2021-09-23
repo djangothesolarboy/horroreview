@@ -1,6 +1,6 @@
 Horroreview
 ---
-Horroreview is meant to be a place for me to review horror films I watch. I tend to keep track and review films I watch using ![Letterboxd(https://letterboxd.com/damiendarko/)](https://img.shields.io/badge/-Letterboxd-ffffff?style=flat-square&logo=letterboxd&logoColor=00D735)  
+Horroreview is meant to be a place for me to review horror films I watch. I tend to keep track and review films I watch using [![Letterboxd](https://img.shields.io/badge/-Letterboxd-ffffff?style=flat-square&logo=letterboxd&logoColor=00D735)](https://letterboxd.com/damiendarko/) 
 
 [![wakatime](https://wakatime.com/badge/github/djangothesolarboy/horroreview.svg)](https://wakatime.com/badge/github/djangothesolarboy/horroreview)
 
