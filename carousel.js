@@ -11,6 +11,18 @@ let reviewObject = [
         alt: 'escape room 2 poster',
         class: 'poster',
         link: './reviews/escape-room-2.html'
+    }, {
+        name: 'the slob',
+        src: './reviews/imgs/the-slob.jpg',
+        alt: 'the slob cover',
+        class: 'poster',
+        link: './reviews/imgs/the-slob.jpg'
+    }, {
+        name: 'in the hands of the heathens',
+        src: './reviews/imgs/in-the-hands-of-the-heathens.jpg',
+        alt: 'in the hands of the heathens cover',
+        class: 'poster',
+        link: './reviews/imgs/in-the-hands-of-the-heathens.jpg'
     }
 ]
 

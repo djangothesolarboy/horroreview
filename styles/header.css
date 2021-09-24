@@ -2,13 +2,13 @@
 header {
     height: 4vh;
     display: flex;
-    background-color:#545454;
+    background-color:#39304A;
     justify-content: space-around;
-    border-bottom: 2px solid #7f7f7f98;
-    /* position: fixed; */
+    border-bottom: 2px solid #635c5198;
 }
 
 .header {
     display: flex;
     align-items: center;
 }
+

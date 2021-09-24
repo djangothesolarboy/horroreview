@@ -54,22 +54,22 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,400;1,100;1,600&display=swap');
 
 body {
-    color: white;
-    background-color: #d3d3d3;
+    color: #B0A990;
+    background-color: #202030;
     font-family: 'Work Sans', sans-serif;
 }
 
 a {
-    color: white;
+    /* color: #C44848; */
+    color:#B0A990;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 a:hover {
-    color:#c44848;
+    color: #7D7461;
     font-weight: bold;
 }
-
 
 /* SMART PHONE */
 @media only screen and (max-width: 600px) {
