@@ -71,6 +71,12 @@ a:hover {
     font-weight: bold;
 }
 
+main {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
 /* SMART PHONE */
 @media only screen and (max-width: 600px) {
     main {

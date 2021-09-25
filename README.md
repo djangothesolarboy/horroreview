@@ -7,7 +7,7 @@ Horroreview is meant to be a place for me to review horror films I watch. I tend
 To-do:
 ---
 - [ ] On poster hover → display star count  
-- [ ] Pick better color palette  
+- [x] Pick better color palette  
 - [ ] Style review list page  
 - [ ] Style contact page  
 - [ ] Style review page  

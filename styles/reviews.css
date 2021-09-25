@@ -1,16 +1,42 @@
 .review-links-container {
+    background-color: #39304A;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    max-width: 80%;
     display: flex;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+.reviews-movies-container {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+
+.reviews-books-container {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    
 }
 
 .reviews-title {
     border-bottom: 1px solid rgba(128, 128, 128, 0.514);
     text-transform: uppercase;
-    font-size: 30px;
     margin-bottom: 15px;
     margin-top: 15px;
+    font-size: 30px;
 }
 
 .reviews-movies-title,
@@ -24,4 +50,3 @@
 .review-link {
     padding: 5px;
 }
-

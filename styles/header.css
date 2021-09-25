@@ -1,10 +1,11 @@
 /* HEADER STYLING */
 header {
-    height: 4vh;
-    display: flex;
-    background-color:#39304A;
-    justify-content: space-around;
     border-bottom: 2px solid #635c5198;
+    justify-content: space-around;
+    background-color:#39304A;
+    padding: 10px;
+    display: flex;
+    height: 4vh;
 }
 
 .header {
