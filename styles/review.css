@@ -3,9 +3,50 @@
 }
 
 main {
-    margin: 40px;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    display: flex;
+    margin: 40px;
+}
+
+.review-title {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.514);
+    text-transform: uppercase;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+    display: flex;
+}
+
+.by-title {
+    text-transform: uppercase;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    display: flex;
+}
+
+.review-container {
+    background-color: #39304A;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    max-width: 80%;
+    display: flex;
+    padding: 30px;
+    margin: 20px;
+}
+
+.poster-container {
+    padding: 10px;
+}
+
+.text-container {
+    padding: 10px;
+    margin: 10px;
 }
