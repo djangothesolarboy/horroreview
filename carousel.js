@@ -16,13 +16,13 @@ let reviewObject = [
         src: './reviews/imgs/the-slob.jpg',
         alt: 'the slob cover',
         class: 'poster',
-        link: './reviews/imgs/the-slob.jpg'
+        link: './reviews/the-slob.html'
     }, {
         name: 'in the hands of the heathens',
         src: './reviews/imgs/in-the-hands-of-the-heathens.jpg',
         alt: 'in the hands of the heathens cover',
         class: 'poster',
-        link: './reviews/imgs/in-the-hands-of-the-heathens.jpg'
+        link: './reviews/in-the-hands-of-the-heathens.html'
     }
 ]
 
@@ -46,6 +46,8 @@ const right = () => {
     img.src = reviewObject[currentPoster].src;
     img.alt = reviewObject[currentPoster].alt;
     img.className = reviewObject[currentPoster].class;
+    link.href = reviewObject[currentPoster].link;
+    currentReview.appendChild(link);
 }
 
 const left = () => {
@@ -55,6 +57,8 @@ const left = () => {
     img.src = reviewObject[currentPoster].src;
     img.alt = reviewObject[currentPoster].alt;
     img.className = reviewObject[currentPoster].class;
+    link.href = reviewObject[currentPoster].link;
+    currentReview.appendChild(link);
 }
 
 setInterval(function() {
@@ -64,6 +68,8 @@ setInterval(function() {
     img.src = reviewObject[currentPoster].src;
     img.alt = reviewObject[currentPoster].alt;
     img.className = reviewObject[currentPoster].class;
+    link.href = reviewObject[currentPoster].link;
+    currentReview.appendChild(link);
 }, 5200);
 
 document.querySelector('.button-right').onclick = right;
