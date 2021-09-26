@@ -1,30 +1,32 @@
-let reviewObject = [
+const reviewObject = [
     {
         name: 'malignant',
-        src: './reviews/imgs/malignant-poster.jpg',
+        src: './reviews/posters/malignant-poster.jpg',
         alt: 'malignant poster',
         class: 'poster',
         link: './reviews/malignant.html'
     }, {
         name: 'escape room 2',
-        src: './reviews/imgs/escape_room_2-poster.jpg',
+        src: './reviews/posters/escape_room_2-poster.jpg',
         alt: 'escape room 2 poster',
         class: 'poster',
         link: './reviews/escape-room-2.html'
     }, {
         name: 'the slob',
-        src: './reviews/imgs/the-slob.jpg',
+        src: './reviews/posters/the-slob.jpg',
         alt: 'the slob cover',
         class: 'poster',
         link: './reviews/the-slob.html'
     }, {
         name: 'in the hands of the heathens',
-        src: './reviews/imgs/in-the-hands-of-the-heathens.jpg',
+        src: './reviews/posters/in-the-hands-of-the-heathens.jpg',
         alt: 'in the hands of the heathens cover',
         class: 'poster',
         link: './reviews/in-the-hands-of-the-heathens.html'
     }
-]
+];
+
+console.log('yeet ->', reviewObject)
 
 let currentReview = document.querySelector('.carousel-content');
 const link = document.createElement('a');

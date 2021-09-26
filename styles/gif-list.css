@@ -23,3 +23,8 @@
     padding: 10px;
     margin: 10px;
 }
+
+.gif-spolier-warning {
+    text-transform: uppercase;
+    font-weight: 700;
+}
