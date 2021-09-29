@@ -19,14 +19,3 @@ main {
     justify-content: center;
     text-transform: uppercase;
 }
-
-.repo {
-    height: 32px;
-    display: flex;
-    justify-content: center;
-}
-
-.github:hover {
-    height: 42px;
-    transition-delay: .01s;
-}

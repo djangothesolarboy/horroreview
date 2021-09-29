@@ -1,0 +1,44 @@
+.contact-container {
+    background-color: #39304A;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: column;
+    max-width: 80%;
+    display: flex;
+    padding: 30px;
+    margin: 20px;
+    height: 100px;
+    width: 150px;
+}
+
+.contact-links {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.contact-title {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.514);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.repo,
+.linkedin,
+.email {
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    height: 32px;
+}
+
+.github:hover,
+.linkedin:hover,
+.email:hover {
+    transition-delay: .01s;
+    height: 42px;
+}

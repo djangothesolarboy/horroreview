@@ -1,0 +1,20 @@
+.about-container {
+    background-color: #39304A;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    max-width: 80%;
+    display: flex;
+    padding: 30px;
+    margin: 20px;
+    width: 60%;
+}
+
+.about-title {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.514);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+}
