@@ -4,11 +4,9 @@ Horroreview is meant to be a place for me to review horror films I watch. I tend
 
 [![wakatime](https://wakatime.com/badge/github/djangothesolarboy/horroreview.svg)](https://wakatime.com/badge/github/djangothesolarboy/horroreview)
 
-To-do:
+# To-do:
+Done:
 ---
-- [ ] Add Letterboxd review link next to star count  
-- [ ] On poster hover → display star count  
-- [ ] Add star count on review page  
 - [x] Pick better color palette  
 - [x] Style review list page  
 - [x] Style contact page  
@@ -16,6 +14,18 @@ To-do:
 - [x] Style gif list page  
 - [x] Style about page  
 - [x] Style gif page  
+
+Review:
+---
+- [ ] Add Letterboxd review link next to star count  
+- [ ] On poster hover → display star count  
+- [ ] Add star count on review page  
+
+About:
+---
+- [ ] Add favorite gifs → hidden with on-hover  
+- [ ] Add favorite horror films/franchises  
+- [ ] Add more about me  
 
 Tools & Technologies Used:
 ---
