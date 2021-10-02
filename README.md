@@ -6,14 +6,16 @@ Horroreview is meant to be a place for me to review horror films I watch. I tend
 
 To-do:
 ---
+- [ ] Add Letterboxd review link next to star count  
 - [ ] On poster hover → display star count  
+- [ ] Add star count on review page  
 - [x] Pick better color palette  
-- [ ] Style review list page  
-- [ ] Style contact page  
-- [ ] Style review page  
-- [ ] Style gif list page  
-- [ ] Style about page  
-- [ ] Style gif page  
+- [x] Style review list page  
+- [x] Style contact page  
+- [x] Style review page  
+- [x] Style gif list page  
+- [x] Style about page  
+- [x] Style gif page  
 
 Tools & Technologies Used:
 ---
