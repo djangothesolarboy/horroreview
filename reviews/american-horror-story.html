@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horroreview - Review Title</title>
+    <title>Horroreview - American Horror Story</title>
     <link rel="stylesheet" href="../app.css">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/review.css">
+    <link rel="stylesheet" href="../styles/button-display.css">
     <link rel="stylesheet" href="../styles/footer.css">
 </head>
 
@@ -24,16 +25,28 @@
         <main>
             <div class="review-container">
                 <div class="poster-container">
-                    <h3 class="review-title">Review Title</h3>
-                    <img class='review-poster' src="" alt=""> <!-- poster image -->
+                    <h3 class="review-title">American Horror Story</h3>
+                    <img class='review-poster' src="./posters/ahs-s10_poster.png" alt="ahs s10 poster"> <!-- poster image -->
                     <!-- star count -->
                 </div>
                 <div class="text-container">
-                    <p class='review-text'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dicta praesentium totam veniam nulla
-                        nam, adipisci magni nobis fuga, aliquam iusto suscipit voluptates illum quas ad voluptate! Libero,
-                        explicabo dolor.
+                    <p class="episode-title">
+                        Season 10 - First Half
+                        <button class='display-button' onclick='display()'>￫</button>
+                    </p> 
+                    <p class='display-episode-review' style='display: none;'>
+                        I am going to write this review in halves, the first half of, you guessed it, the first half of the season. I figure the best way to review this season of AHS is to split it in 2, since that is what they did.
                     </p>
+                    <p class="episode-title">
+                        Season 10 - Second Half
+                        <button class='display-button2' onclick='display2()'>￫</button>
+                    </p> 
+                    <p class='display-episode-review2' style='display: none;'>
+                        I am going to write this review in halves, the first half of, you guessed it, the second half of the season. I figure the best way to review this season of AHS is to split it in 2, since that is what they did.
+                    </p>
+                    <!-- episode template -->
+                    <!-- Season # - Episode # <button class='display-button' onclick='display()'>￫</button>
+                    <p class="display-episode-review" style='display: none;'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid hic alias aspernatur velit beatae veniam explicabo optio ipsum.</p> -->
                 </div>
             </div>
         </main>
@@ -43,6 +56,7 @@
             </div>
         </footer>
     </div>
+    <script src="./button-display.js"></script>
 </body>
 
 </html>

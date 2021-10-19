@@ -1,4 +1,5 @@
-.display-button {
+.display-button,
+.display-button2 {
     border: none;
     margin: 0;
     padding: 0;
@@ -11,7 +12,8 @@
     text-decoration: none;
 }
 
-.display-button:hover {
+.display-button:hover,
+.display-button2:hover {
     color: #7D7461;
 }
 

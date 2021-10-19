@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horroreview - Review Title</title>
+    <title>Horroreview - American Horror Stories</title>
     <link rel="stylesheet" href="../app.css">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/review.css">
+    <link rel="stylesheet" href="../styles/button-display.css">
     <link rel="stylesheet" href="../styles/footer.css">
 </head>
 
@@ -24,16 +25,21 @@
         <main>
             <div class="review-container">
                 <div class="poster-container">
-                    <h3 class="review-title">Review Title</h3>
-                    <img class='review-poster' src="" alt=""> <!-- poster image -->
+                    <h3 class="review-title">American Horror Stories</h3>
+                    <img class='review-poster' src="./posters/ahss-s1_poster.jpg" alt="ahss s1 poster"> <!-- poster image -->
                     <!-- star count -->
                 </div>
                 <div class="text-container">
-                    <p class='review-text'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dicta praesentium totam veniam nulla
-                        nam, adipisci magni nobis fuga, aliquam iusto suscipit voluptates illum quas ad voluptate! Libero,
-                        explicabo dolor.
+                    <p class="episode-title">
+                        Season 1 - 8 Episodes
+                        <button class='display-button' onclick='display()'>￫</button>
+                    </p> 
+                    <p class='display-episode-review' style='display: none;'>
+                        I am going to write this review for the entire season, rather than by each episode.
                     </p>
+                    <!-- episode template -->
+                    <!-- Season # - Episode # <button class='display-button' onclick='display()'>￫</button>
+                    <p class="display-episode-review" style='display: none;'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid hic alias aspernatur velit beatae veniam explicabo optio ipsum.</p> -->
                 </div>
             </div>
         </main>
@@ -43,6 +49,7 @@
             </div>
         </footer>
     </div>
+    <script src="./button-display.js"></script>
 </body>
 
 </html>
