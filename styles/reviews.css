@@ -30,6 +30,16 @@
     margin: 20px;    
 }
 
+.reviews-shows-container {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    display: flex;
+    padding: 30px;
+    margin: 20px;    
+}
+
 .reviews-title {
     border-bottom: 1px solid rgba(128, 128, 128, 0.514);
     text-transform: uppercase;
@@ -39,7 +49,8 @@
 }
 
 .reviews-movies-title,
-.reviews-books-title {
+.reviews-books-title,
+.reviews-shows-title {
     border-bottom: 1px solid rgba(128, 128, 128, 0.514);
     text-transform: uppercase;
     font-size: larger;

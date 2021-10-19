@@ -1,0 +1,14 @@
+.display-button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-size: larger;
+    overflow: visible;
+    background: transparent;
+    text-decoration: none;
+}
+
+.display-button:hover {
+    color: #7D7461;
+}

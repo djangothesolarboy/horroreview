@@ -23,10 +23,27 @@ const reviewObject = [
         alt: 'in the hands of the heathens cover',
         class: 'poster',
         link: './reviews/in-the-hands-of-the-heathens.html'
+    }, {
+        name: 'halloween kills',
+        src: './reviews/posters/halloween-kills_poster.jpg',
+        alt: 'halloween kills poster',
+        class: 'poster',
+        link: './reviews/halloween-kills.html'
+    }, {
+        name: 'chucky',
+        src: './reviews/posters/chucky-show_poster.jpeg',
+        alt: 'chucky poster',
+        class: 'poster',
+        link: './reviews/chucky-show.html'
     }
+    // , {
+    //     name: '',
+    //     src: './reviews/posters/',
+    //     alt: 'poster',
+    //     class: 'poster',
+    //     link: './reviews/'
+    // }
 ];
-
-console.log('yeet ->', reviewObject)
 
 let currentReview = document.querySelector('.carousel-content');
 const link = document.createElement('a');
