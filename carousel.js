@@ -35,6 +35,12 @@ const reviewObject = [
         alt: 'chucky poster',
         class: 'poster',
         link: './reviews/chucky-show.html'
+    }, {
+        name: 'day of the dead',
+        src: './reviews/posters/dotd-s1_poster.jpg',
+        alt: 'day of the dead poster',
+        class: 'poster',
+        link: './reviews/day-of-the-dead.html'
     }
     // , {
     //     name: '',
