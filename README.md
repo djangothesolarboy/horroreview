@@ -1,8 +1,8 @@
 [Horroreview](https://horroreview.netlify.app/)
 ---
-Horroreview is meant to be a place for me to review horror films I watch. I tend to keep track and review films I watch using [![Letterboxd](https://img.shields.io/badge/-Letterboxd-ffffff?style=flat-square&logo=letterboxd&logoColor=00D735)](https://letterboxd.com/damiendarko/). Once upon a time, I had a horror blog on Tumblr where I would post my horror gifs. So I would like to create a library of those gifs, along with new ones on this site as well.  
+Horroreview is meant to be a place for me to review horror films I watch. I tend to keep track and review films I watch using [![Letterboxd](https://img.shields.io/badge/-Letterboxd-ffffff?style=flat-square&logo=letterboxd&logoColor=00D735)](https://letterboxd.com/morbidlyocheese/). Once upon a time, I had a horror blog on Tumblr where I would post my horror gifs. So I would like to create a library of those gifs, along with new ones on this site as well.  
 
-[![wakatime](https://wakatime.com/badge/github/djangothesolarboy/horroreview.svg)](https://wakatime.com/badge/github/djangothesolarboy/horroreview)
+[![wakatime](https://wakatime.com/badge/github/morbidlyocheese/horroreview.svg)](https://wakatime.com/badge/github/morbidlyocheese/horroreview)
 
 # To-do:
 Done:
